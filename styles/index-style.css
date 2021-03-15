@@ -1,0 +1,81 @@
+body{
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#conteudo{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 2px 1px 1px darkcyan;
+}
+header > h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+header > nav{
+    background-color: lightgray;
+    padding: 1px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+header > nav > ul li{
+    display: inline;
+    margin-right: 1em;   
+}
+
+header > nav > ul li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    
+}
+
+header > nav > ul li > a:hover{
+    text-decoration: underline;
+    font-size: 1.1em;
+    background-color: aliceblue;
+    padding: 1px;
+    border-radius: 5px;
+}
+main > h2{
+    text-decoration: underline;
+}
+
+main > h3{
+    text-decoration: underline;
+}
+
+main > p{
+    text-align: justify;
+}
+
+main > img#perfil{
+    margin-top: 20px;
+    margin-left: 35%;
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+span > a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+span > a:hover{
+    background-color: lightgray;
+    padding: 1px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+footer{
+    background-color: lightgrey;
+    padding: 2px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 600;
+}
