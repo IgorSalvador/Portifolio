@@ -124,3 +124,7 @@ div#mobile > img{
     margin: auto;
     border-radius: 20px;
 }
+
+div#mobile > p {
+    padding: 30px;
+}
